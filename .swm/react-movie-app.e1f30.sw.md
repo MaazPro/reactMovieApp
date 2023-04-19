@@ -2,7 +2,7 @@
 id: e1f30
 title: "React Movie App "
 file_version: 1.1.2
-app_version: 1.6.2
+app_version: 1.6.3
 ---
 
 *   React components are injected here with an id of root.
@@ -42,7 +42,8 @@ app_version: 1.6.2
 *   Imports the search icon.
 
 *   Imports the MovieCard jsx file which is the reusable movie card component.
-<br/>
+
+    <br/>
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/App.js
 ```javascript
@@ -161,7 +162,8 @@ app_version: 1.6.2
 *   `&#39;https://via.placeholder.com/400&#39;`<swm-token data-swm-token=":src/MovieCard.jsx:11:27:37:`            &lt;img src={movie.Poster !== &#39;N/A&#39; ? movie.Poster : &#39;https://via.placeholder.com/400&#39;}`"/> If the image is not available a place holder image is displayed in its place. Otherwise only the movie title is displayed.
 
 *   `&lt;div`<swm-token data-swm-token=":src/MovieCard.jsx:16:1:2:`        &lt;div&gt;`"/>\> The div tag holds the span element which displays the movie type. Another element is the h3 tag which displays movie title.
-<br/>
+
+    <br/>
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/MovieCard.jsx
 ```javascript
@@ -203,7 +205,8 @@ app_version: 1.6.2
 *   This allows to dynamically loop over movies array that is fetched from an Api. Each individual object is dynamically passed as a prop to movie card.
 
 *   `movie`<swm-token data-swm-token=":src/App.js:56:4:4:`                                    &lt;MovieCard movie={movie} /&gt;`"/>Card card component is called here.
-<br/>
+
+    <br/>
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/App.js
 ```javascript
@@ -248,7 +251,8 @@ app_version: 1.6.2
 *   The value is saved in the variable searchTerm.
 
 *   onChange event sets the value for the useState hook. This data is used as an argument to set the state value.
-<br/>
+
+    <br/>
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/App.js
 ```javascript
@@ -830,8 +834,7 @@ app_version: 1.6.2
 
 <br/>
 
-*   When the screen width is of 600px then the padding of the search class will be of 1rem from the top and bottom.<br/>
-    And 1.75rem from the right and left.
+*   When the screen width is of 600px then the padding of the search class will be of 1rem from the top and bottom. And 1.75rem from the right and left.
 
 *   It will the set its width to span the entire width of the screen. This is the reason why the user only sees the input field at the top of the screen to its maximum width.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
@@ -868,9 +871,7 @@ app_version: 1.6.2
 
 <br/>
 
-*   It sets the padding of the .app element to 4rem (4 times the value of the font-size of the element)<br/>
-    at the top and bottom, and 1rem (1 times the value of the font-size of the element) on the left and right<br/>
-    when the screen width is less than or equal to 400 pixels.
+*   It sets the padding of the .app element to 4rem (4 times the value of the font-size of the element) at the top and bottom, and 1rem (1 times the value of the font-size of the element) on the left and right when the screen width is less than or equal to 400 pixels.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/App.css
 ```css
@@ -884,8 +885,7 @@ app_version: 1.6.2
 
 <br/>
 
-*   Here, screen refers to the device's screen, and max-width: 400px is a condition that specifies the maximum<br/>
-    width of the screen that the styles within the media query should apply to. Here the the font size of the H1 tag will be set to 2rem once the condition of 400px of width of the screen is met.
+*   Here, screen refers to the device's screen, and max-width: 400px is a condition that specifies the maximum width of the screen that the styles within the media query should apply to. Here the the font size of the H1 tag will be set to 2rem once the condition of 400px of width of the screen is met.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/App.css
 ```css
@@ -907,7 +907,7 @@ app_version: 1.6.2
 
 <br/>
 
-*   Upon meeting the condition of maximum screen width of 400px the div element with the class name of movie will span to 100% of its width. As a result the users will only see 1 movie card displayed on the screen
+*   Upon meeting the condition of maximum screen width of 400px the div element with the class name of movie will span to 100% of its width. As a result the users will only see 1 movie card displayed on the screen.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/App.css
 ```css
